@@ -68,6 +68,33 @@ conda env create -f environment.yml
 ```
 
 
+## AI Learning Companion (`tech2` skill)
+
+This repository includes a course skill (`tech2`) that turns compatible AI coding assistants into an interactive tutor and setup assistant for TECH2.
+
+### What it does
+- Environment and setup help: Step-by-step assistance for Miniforge/Conda, Git, VS Code, and the `TECH2` Conda environment on Windows, macOS, and Linux.
+- Curriculum-aligned tutoring: Provides Socratic hints, explanations, and code examples tailored strictly to the concepts covered up to your current course week.
+
+### CLI tools and agents
+The skill is located in `.agents/skills/tech2/` (and `.claude/skills/tech2/`) and is automatically discovered when launched inside this repository. It should work with most AI coding assistants, including:
+- [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) (`claude`)
+- [Codex CLI](https://learn.chatgpt.com/docs/codex/cli) (`codex`)
+- [Antigravity CLI](https://antigravity.google/product/antigravity-cli) (`agy`)
+- [OpenCode](https://opencode.ai) (`opencode`)
+- [Pi](https://pi.dev/) (`pi`)
+
+### Usage
+Launch your CLI assistant from the root of your cloned course repository:
+```bash
+claude
+# or: codex, agy, opencode, pi
+```
+Then ask questions about installation or course materials, for example:
+- "I'm having trouble creating the TECH2 conda environment on Windows."
+- "I'm in Week 8. Can you explain how boolean indexing works in pandas?"
+
+
 ## Additional resources
 
 1. [Think Python](https://allendowney.github.io/ThinkPython/index.html) by Allen B. Downey:
