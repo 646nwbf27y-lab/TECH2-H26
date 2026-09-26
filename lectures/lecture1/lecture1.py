@@ -7,7 +7,7 @@ Implement and test argmax() function that returns the location of a maximum.
 
 def argmax(values):
     """
-    Return the location and value of the maximum contained in a given sequence.
+    Return the location of the maximum contained in a given sequence.
 
     Parameters
     ----------
@@ -25,7 +25,7 @@ def argmax(values):
     if N == 0:
         raise ValueError('attempt to get argmax of an empty sequence')
 
-    # Initialise the maximum location and value
+    # Initialize the maximum location and value
     imax = 0
     vmax = values[0]
 
