@@ -32,15 +32,6 @@ See README files in sub-folders for documentation and sources.
     15. `MonthSold`: Month sold
     16. `HasGarage`: Flag indicating whether the property has a garage
 
-- `population_norway.csv`: Population by municipality (kommune) as of March 13, 2025.
-    
-    Source: SSB, [https://www.ssb.no/statbank/sq/10102933](https://www.ssb.no/statbank/sq/10102933)
-
-    *Variables:*
-
-    1.  Municipality
-    2.  Population
-
 - `titanic.csv`: Passenger list of the Titanic's maiden voyage, taken
     from [pandas's data collection](https://github.com/pandas-dev/pandas/blob/main/doc/data/titanic.csv).
 
@@ -82,4 +73,3 @@ See README files in sub-folders for documentation and sources.
 
     1. `peak`: Peak quarter (last quarter in which GDP was growing)
     2. `trough`: Trough quarter (last quarter in which GDP was declining)
-
