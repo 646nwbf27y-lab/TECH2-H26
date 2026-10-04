@@ -50,22 +50,6 @@ See README files in sub-folders for documentation and sources.
         `C` - Cherbourg, `Q` - Queenstown, `S` - Southampton
 
 
-- `titanic-additional.csv`: Contains additional (fictitious) data on Titanic passengers.
-
-    *Variables:*
-
-    1.  `Title`: Mr., Mrs., Miss, Ms., Rev., etc.
-    2.  `LastName`: Last name
-    3.  `FirstName`: First name
-    4.  `MaidenName`: Maiden name (only for married women)
-    5.  `City`: Fictitious city of residence
-    6.  `Postcode`: Fictitious post code
-    7.  `Address`: Fictitious address
-
-- `UK_post_codes.csv`: List of post code prefixes (first letters)
-    and the corresponding cities and countries (England, Scotland, etc.)
-
-
 - `NBER_cycle_dates.csv`: US business cycle peaks and troughs as dated by the 
     National Bureau of Economic Research (NBER).
 
